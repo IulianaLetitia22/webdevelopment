@@ -1,0 +1,70 @@
+div {
+  margin: 10px;
+  padding: 10px;
+}
+
+div[foaie] {
+  background: repeating-linear-gradient(
+    0deg,
+    #FFFBD2,
+    #FFFBD2 20px,
+    rgba(0, 0, 0, 0.2) 20px,
+    rgba(0, 0, 0, 0.2) 21px
+  );
+  border: 6px  solid red;
+  border-radius: 100px 100px 100px 100px;
+}
+
+.lista > input {
+  font-size: 300%;
+    font-weight: bold;
+  text-align: center;
+  background-color: transparent;
+  border: 0;
+  text-decoration: underline;
+}
+
+.magazin > input[type="text"] {
+  font-size: 250%;
+  background-color: transparent;
+  border: 0;
+  text-decoration: underline;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.produs > input, select { 
+  background-color: transparent;
+  border: 0;
+  font-size: x-large;
+}
+.magazin > input[value="🗑️"] { 
+  font-size: x-large;
+  background-color: transparent;
+  border: 0;
+}
+.adauga > input[type="text"] { 
+  background-color: transparent;
+  border: 0;
+}                     
+
+.produs > input[type="text"] {
+  font-style:italic;
+}
+
+.lista {
+  text-align:center;
+}
+
+.produs > input[type="number"] {
+  width:35px;
+}
+
+.produs >input[type="text"]:focus{
+  color:red;
+}
+*{font-family: 'Bangers', cursive;}
+
+input[type="button"] {
+    background-color: transparent;
+    color: red;
+}
