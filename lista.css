@@ -3,68 +3,52 @@ div {
   padding: 10px;
 }
 
-div[foaie] {
+.foaie {
   background: repeating-linear-gradient(
     0deg,
-    #ccc78e,
-    #ccc78e 20px,
+    #FFFBD2,
+    #FFFBD2 20px,
     rgba(0, 0, 0, 0.2) 20px,
-    rgba(0, 0, 0, 0.2) 21px
+    rgb(255 251 210) 21px
   );
-  border: 6px  solid red;
-  border-radius: 100px 100px 100px 100px;
 }
 
 .lista > input {
-  font-size: 300%;
-    font-weight: bold;
   text-align: center;
-  background-color: transparent;
-  border: 0;
   text-decoration: underline;
+  font-family: 'Gochi Hand', cursive;
 }
 
 .magazin > input[type="text"] {
   font-size: 200%;
-  background-color: transparent;
-  border: 0;
   text-decoration: underline;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Sacramento', cursive;
 }
 
-.produs > input, select { 
-  background-color: transparent;
-  border: 0;
-  font-size: x-large;
-}
-.magazin > input[value="🗑️"] { 
-  font-size: x-large;
+input:not([type="checkbox"]):not([value="adauga"]) {
   background-color: transparent;
   border: 0;
 }
-.adauga > input[type="text"] { 
-  background-color: transparent;
-  border: 0;
-}                     
 
 .produs > input[type="text"] {
-  font-style:italic;
-}
-
-.lista {
-  text-align:center;
+  font-style: italic;
+  font-family: 'Gochi Hand', cursive;
 }
 
 .produs > input[type="number"] {
-  width:35px;
+  width: 35px;
+  font-family: 'Sacramento', cursive;
 }
 
-.produs >input[type="text"]:focus{
-  color:red;
+.lista > input {
+  width: 100%;
 }
-*{font-family: 'Bangers', cursive;}
 
-input[type="button"] {
-    background-color: transparent;
-    color: red;
+input[type="text"] {
+  font-family: 'Gochi Hand', cursive;
+}
+
+.form-select {
+  width: 70px;
+  display: inline-block;
 }
